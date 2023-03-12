@@ -8,7 +8,7 @@ admin.initializeApp();
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: ['https://ridemap.in', 'https://mvit.ridemap.in', 'https://smvec.ridemap.in', 'https://mec.ridemap.in'] }));
+app.use(cors({ origin: ['http://localhost:3000','https://ridemap.in', 'https://mvit.ridemap.in', 'https://smvec.ridemap.in', 'https://mec.ridemap.in'] }));
 
 // controllers
 
